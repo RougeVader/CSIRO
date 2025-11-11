@@ -97,7 +97,7 @@ def main():
     """Main function to run the entire prediction and submission pipeline."""
     # 1. Load data, models, and mappings
     print("Loading data, models, and mappings...")
-    data_path = Path('C:/Users/Ayush/OneDrive/Desktop/kaggle/New folder')
+    data_path = Path('.')
     train_df = pd.read_csv(data_path / 'train.csv')
     test_df = pd.read_csv(data_path / 'test.csv')
     

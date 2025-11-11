@@ -45,7 +45,7 @@ def train_and_save_metadata_model():
     Main function to load data, build, train, and save the metadata prediction model.
     """
     # 1. Setup Paths and Parameters
-    data_path = Path('C:/Users/Ayush/OneDrive/Desktop/kaggle/New folder')
+    data_path = Path('.')
     batch_size = 32
     img_size = (224, 224)
     

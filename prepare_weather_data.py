@@ -139,7 +139,7 @@ def prepare_train_weather_features(data_path, state_location_map):
     feature_df.to_csv(save_path, index=False)
 
 if __name__ == '__main__':
-    DATA_PATH = Path('C:/Users/Ayush/OneDrive/Desktop/kaggle/New folder')
+    DATA_PATH = Path('.')
     mapping = create_and_save_mapping(DATA_PATH)
     prepare_train_weather_features(DATA_PATH, mapping)
     print("Weather feature preparation for training data complete.")
