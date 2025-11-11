@@ -216,7 +216,7 @@ def main():
             })
 
     submission_df = pd.DataFrame(submission_list)
-    submission_df.to_csv(data_path / 'submission_xfactor_phase3.csv', index=False)
+    submission_df.to_csv('submission.csv', index=False)
 
     print('X-Factor Phase 3 submission file created successfully!')
     print(submission_df.head())
